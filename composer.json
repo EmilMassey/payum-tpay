@@ -1,6 +1,5 @@
 {
     "name": "emilmassey/payum-tpay",
-    "type": "project",
     "description": "The Payum extension. It provides Tpay payment integration.",
     "keywords": ["payment", "payum", "tpay"],
     "homepage": "https://payum.forma-pro.com",
