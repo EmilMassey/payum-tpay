@@ -10,7 +10,7 @@ class TransactionApi extends BaseTransactionApi
     public function __construct(array $config)
     {
         if (!isset($config['sandbox']) || true !== $config['sandbox']) {
-            $this->merchantId = $config['merchant_id'];
+            $this->merchantId = (int) $config['merchant_id'];
             $this->merchantSecret = $config['secret'];
             $this->trApiKey = $config['api_key'];
             $this->trApiPass = $config['api_password'];
