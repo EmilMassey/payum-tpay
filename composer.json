@@ -1,0 +1,42 @@
+{
+    "name": "emilmassey/payum-tpay",
+    "type": "project",
+    "description": "The Payum extension. It provides Tpay payment integration.",
+    "keywords": ["payment", "payum", "tpay"],
+    "homepage": "https://payum.forma-pro.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emil Masiakowski",
+            "homepage": "https://github.com/EmilMassey",
+            "email": "emil.masiakowski@gmail.com"
+        },
+        {
+            "name": "Kotlyar Maksim",
+            "email": "kotlyar.maksim@gmail.com"
+        },
+        {
+            "name": "Payum project",
+            "homepage": "https://payum.forma-pro.com/"
+        },
+        {
+            "name": "Community contributions",
+            "homepage": "https://github.com/Payum/AuthorizeNetAim/contributors"
+        }
+    ],
+    "require": {
+        "php" : ">7.1",
+        "payum/core": "^1.5",
+        "tpay-com/tpay-php": "^2.2"
+    },
+    "require-dev": {
+        "payum/core": "^1.5",
+        "php-http/guzzle6-adapter": "^1.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": { "EmilMassey\\Payum\\Tpay\\": "src/" }
+    }
+}
