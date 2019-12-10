@@ -31,6 +31,7 @@ class ConvertPaymentAction implements ActionInterface, GatewayAwareInterface
 
         $model = ArrayObject::ensureArrayObject($payment->getDetails());
         $model['email'] = $payment->getClientEmail();
+        $model['description'] = $payment->getDescription();
         $model['amount'] = $payment->getTotalAmount() / $divisor;
 
         $request->setResult((array) $model);
