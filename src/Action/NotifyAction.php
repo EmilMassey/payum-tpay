@@ -24,7 +24,7 @@ class NotifyAction implements ActionInterface, GatewayAwareInterface
 
         $this->gateway->execute(new Sync($request->getModel()));
 
-        throw new HttpResponse('OK');
+        throw new HttpResponse('TRUE');
     }
 
     /**
