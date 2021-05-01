@@ -21,7 +21,7 @@ class TpayGatewayFactory extends GatewayFactory
     {
         $config->defaults([
             'payum.factory_name' => 'tpay',
-            'payum.factory_title' => 'Tpay',
+            'payum.factory_title' => 'TPay',
             'payum.action.capture' => new CaptureAction(),
             'payum.action.notify' => new NotifyAction(),
             'payum.action.status' => new StatusAction(),
