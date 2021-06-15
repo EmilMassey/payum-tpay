@@ -18,6 +18,8 @@ class ConvertPaymentAction implements ActionInterface, GatewayAwareInterface
      * {@inheritDoc}
      *
      * @param Convert $request
+     *
+     * @return void
      */
     public function execute($request)
     {
