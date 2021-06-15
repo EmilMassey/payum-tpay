@@ -13,6 +13,8 @@ class StatusAction implements ActionInterface
      * {@inheritDoc}
      *
      * @param GetStatusInterface $request
+     *
+     * @return void
      */
     public function execute($request)
     {

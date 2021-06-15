@@ -13,6 +13,8 @@ class GetTransactionDataAction extends BaseApiAwareAction
      * {@inheritdoc}
      *
      * @param $request GetTransactionData
+     *
+     * @return void
      */
     public function execute($request)
     {

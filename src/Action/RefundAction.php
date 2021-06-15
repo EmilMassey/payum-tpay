@@ -18,6 +18,8 @@ class RefundAction implements ActionInterface, GatewayAwareInterface
      * {@inheritdoc}
      *
      * @param $request Refund
+     *
+     * @return void
      */
     public function execute($request)
     {

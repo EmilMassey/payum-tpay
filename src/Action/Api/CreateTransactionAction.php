@@ -14,6 +14,8 @@ class CreateTransactionAction extends BaseApiAwareAction
      * {@inheritdoc}
      *
      * @param $request CreateTransaction
+     *
+     * @return void
      */
     public function execute($request)
     {

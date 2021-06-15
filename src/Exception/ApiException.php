@@ -6,7 +6,7 @@ use tpayLibs\src\_class_tpay\Utilities\TException;
 
 class ApiException extends \RuntimeException
 {
-    public static function create(TException $exception)
+    public static function create(TException $exception): self
     {
         return new self(\sprintf('TPay Api Exception: %s', $exception->getMessage()), $exception->getCode(), $exception);
     }
