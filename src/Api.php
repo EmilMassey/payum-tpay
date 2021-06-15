@@ -37,11 +37,11 @@ class Api
      * @param array $options
      * @param HttpClientInterface $client
      * @param MessageFactory $messageFactory
-     *
-     * @throws InvalidArgumentException if an option is invalid
      */
     public function __construct(array $options, HttpClientInterface $client, MessageFactory $messageFactory)
     {
+        // TODO require options
+
         $this->options = $options;
         $this->client = $client;
         $this->messageFactory = $messageFactory;

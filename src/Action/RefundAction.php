@@ -17,7 +17,7 @@ class RefundAction implements ActionInterface, GatewayAwareInterface
     /**
      * {@inheritdoc}
      *
-     * @param $request Sync
+     * @param $request Refund
      *
      * @return void
      */
