@@ -2,7 +2,7 @@
 The Payum extension. It provides [Tpay](https://tpay.com) payment integration.
 
 ## Installation
-Just run `composer require emilmassey/payum-tpay "^1.0"`
+Just run `composer require emilmassey/payum-tpay "^1.1"`
 
 ## config.php
 ```php
