@@ -26,7 +26,7 @@
     "require": {
         "php" : ">7.1",
         "payum/core": "^1.5",
-        "tpay-com/tpay-php": "^2.2"
+        "tpay-com/tpay-php": "^2.3"
     },
     "require-dev": {
         "payum/core": "^1.5",
